@@ -103,11 +103,11 @@ GET /products/search?name=juice
 ```json
 {
   "id": 1,
-  "name": "Apple Juice",
-  "description": "Fresh apple juice",
-  "price": 19.99,
-  "category": "Beverages",
-  "inStock": true
+  "name": "Wholegrain Bread",
+  "description": "Healthy seeded bread loaf",
+  "price": 30.00,
+  "category": "Bakery",
+  "inStock": false
 }
 ```
 
@@ -123,9 +123,8 @@ GET /products/stats
 
 ```json
 {
-  "beverages": 3,
-  "bakery": 2,
-  "groceries": 1
+  "savory": 2,
+  "sweet treats": 1
 }
 ```
 
